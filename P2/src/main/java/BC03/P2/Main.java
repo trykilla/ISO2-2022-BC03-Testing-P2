@@ -7,11 +7,12 @@ import BC03.P2.Triangulo.ErrorException;
 
 public class Main {
 
-	final static Scanner sn = new Scanner (System.in);
+	final static Scanner sn = new Scanner (System.in, "UTF-8");
 	
 public static void main(String[] args) throws ErrorException {
 		int [] valor = new int[6];
 		try {
+			
 			for (int i = 0; i<6; i++) {
 
 				System.out.println("Dame un dato (números)");
@@ -26,7 +27,7 @@ public static void main(String[] args) throws ErrorException {
 		String tipo = t.tipoTriangulo();
 		System.out.println(tipo);
 //	
-		
+
 	}
 
 }

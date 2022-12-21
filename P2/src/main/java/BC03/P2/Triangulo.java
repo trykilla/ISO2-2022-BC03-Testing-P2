@@ -5,7 +5,7 @@ public class Triangulo {
 
 
 	@SuppressWarnings("serial")
-	class ErrorException extends Exception{
+	static class ErrorException extends Exception{
         public ErrorException(String msg){
             super(msg);
         }
@@ -19,6 +19,7 @@ public class Triangulo {
 		this.setAngulo3(angulo3);
 
 	}
+	
 
 
 
@@ -40,6 +41,7 @@ public class Triangulo {
 		}
 	}
 
+		
 
 
 	public void setLado3(double lado3) throws ErrorException {
@@ -84,7 +86,8 @@ public class Triangulo {
 	public String tipoTriangulo() {
 		String tipoTriangulo = "";
 		boolean esEquilatero = false;
-		if ((this.angulo1 + this.angulo2 + this.angulo3) != 180)
+		if (this.angulo1 + this.angulo2 + this.angulo3 != 180)
+			
 			 tipoTriangulo = "No es un triángulo";
 		else if (this.lado1 >= (this.lado2 + this.lado3) || this.lado3 >= (this.lado2 + this.lado1)
 				|| this.lado2 >= (this.lado1 + this.lado3))
@@ -108,11 +111,11 @@ public class Triangulo {
 			else if (this.lado1 != this.lado2 && this.lado2 != this.lado3 && this.lado3 != this.lado1)
 				tipoTriangulo ="Escaleno";
 
-			if ((this.angulo1 < 90 && this.angulo2 < 90 && this.angulo3 < 90) && !esEquilatero)
+			if (this.angulo1 < 90 && this.angulo2 < 90 && this.angulo3 < 90 && !esEquilatero)
 				tipoTriangulo+=" Acutangulo";
-			else if ((this.angulo1 == 90 || this.angulo2 == 90 || this.angulo3 == 90))
+			else if (this.angulo1 == 90 || this.angulo2 == 90 || this.angulo3 == 90)
 				tipoTriangulo +=" Rectangulo";
-			else if ((this.angulo1 > 90 || this.angulo2 > 90 || this.angulo3 > 90))
+			else if (this.angulo1 > 90 || this.angulo2 > 90 || this.angulo3 > 90)
 				tipoTriangulo += " Obtusangulo";
 		}
 		return tipoTriangulo;

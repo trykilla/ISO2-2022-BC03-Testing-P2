@@ -7,27 +7,28 @@ import BC03.P2.Triangulo.ErrorException;
 
 <span class="nc" id="L8">public class Main {</span>
 
-<span class="nc" id="L10">	final static Scanner sn = new Scanner (System.in);</span>
+<span class="nc" id="L10">	final static Scanner sn = new Scanner (System.in, &quot;UTF-8&quot;);</span>
 	
 public static void main(String[] args) throws ErrorException {
 <span class="nc" id="L13">		int [] valor = new int[6];</span>
 		try {
-<span class="nc bnc" id="L15" title="All 2 branches missed.">			for (int i = 0; i&lt;6; i++) {</span>
+			
+<span class="nc bnc" id="L16" title="All 2 branches missed.">			for (int i = 0; i&lt;6; i++) {</span>
 
-<span class="nc" id="L17">				System.out.println(&quot;Dame un dato (números)&quot;);</span>
-<span class="nc" id="L18">				valor[i] = sn.nextInt();</span>
+<span class="nc" id="L18">				System.out.println(&quot;Dame un dato (números)&quot;);</span>
+<span class="nc" id="L19">				valor[i] = sn.nextInt();</span>
 			}
 			
-<span class="nc" id="L21">		} catch (InputMismatchException e) {</span>
-<span class="nc" id="L22">			System.out.println(&quot;Solo números...&quot;);</span>
-<span class="nc" id="L23">			System.exit(1);</span>
+<span class="nc" id="L22">		} catch (InputMismatchException e) {</span>
+<span class="nc" id="L23">			System.out.println(&quot;Solo números...&quot;);</span>
+<span class="nc" id="L24">			System.exit(1);</span>
 		}
-<span class="nc" id="L25">		Triangulo t = new Triangulo(valor[0],valor[1],valor[2],valor[3],valor[4],valor[5]);</span>
-<span class="nc" id="L26">		String tipo = t.tipoTriangulo();</span>
-<span class="nc" id="L27">		System.out.println(tipo);</span>
+<span class="nc" id="L26">		Triangulo t = new Triangulo(valor[0],valor[1],valor[2],valor[3],valor[4],valor[5]);</span>
+<span class="nc" id="L27">		String tipo = t.tipoTriangulo();</span>
+<span class="nc" id="L28">		System.out.println(tipo);</span>
 //	
-		
-<span class="nc" id="L30">	}</span>
+
+<span class="nc" id="L31">	}</span>
 
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>

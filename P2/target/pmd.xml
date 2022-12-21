@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.49.0" timestamp="2022-12-21T12:55:12.082">
+<file name="C:\Users\airon\eclipse-workspace\P2\src\main\java\BC03\P2\Triangulo.java">
+<violation beginline="95" endline="95" begincolumn="13" endcolumn="72" rule="UselessParentheses" ruleset="Code Style" package="BC03.P2" class="Triangulo" method="tipoTriangulo" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="99" endline="99" begincolumn="9" endcolumn="60" rule="UselessParentheses" ruleset="Code Style" package="BC03.P2" class="Triangulo" method="tipoTriangulo" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+</pmd>

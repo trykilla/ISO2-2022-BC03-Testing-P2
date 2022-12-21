@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="31" failures="0" name="BC03.P2.AppTest" time="0.015" errors="0" skipped="0">
+<testsuite tests="31" failures="0" name="BC03.P2.AppTest" time="0.011" errors="0" skipped="0">
   <properties>
     <property name="jansi.mode" value="force"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -28,7 +28,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\airon\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf16499713011582689410.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\airon\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6145228107930208795.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_351\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-19\bin;C:\Users\airon\Downloads\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin;C:\Users\airon\AppData\Local\Microsoft\WindowsApps;;C:\Users\airon\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\airon\.dotnet\tools;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -61,11 +61,11 @@
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="m2e.build.project.data.socket.port" value="64264"/>
+    <property name="m2e.build.project.data.socket.port" value="50790"/>
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="BC03.P2.AppTest" name="pairWiseTest1" time="0.011"/>
+  <testcase classname="BC03.P2.AppTest" name="pairWiseTest1" time="0.007"/>
   <testcase classname="BC03.P2.AppTest" name="pairWiseTest2" time="0"/>
   <testcase classname="BC03.P2.AppTest" name="pairWiseTest3" time="0"/>
   <testcase classname="BC03.P2.AppTest" name="pairWiseTest4" time="0"/>
@@ -73,27 +73,27 @@
   <testcase classname="BC03.P2.AppTest" name="pairWiseTest6" time="0"/>
   <testcase classname="BC03.P2.AppTest" name="eachUseTest1" time="0"/>
   <testcase classname="BC03.P2.AppTest" name="eachUseTest2" time="0"/>
-  <testcase classname="BC03.P2.AppTest" name="eachUseTest3" time="0.001"/>
+  <testcase classname="BC03.P2.AppTest" name="eachUseTest3" time="0"/>
   <testcase classname="BC03.P2.AppTest" name="eachUseTest4" time="0"/>
-  <testcase classname="BC03.P2.AppTest" name="eachUseTest5" time="0"/>
+  <testcase classname="BC03.P2.AppTest" name="eachUseTest5" time="0.001"/>
   <testcase classname="BC03.P2.AppTest" name="eachUseTest6" time="0"/>
   <testcase classname="BC03.P2.AppTest" name="mc_dcTest1" time="0"/>
-  <testcase classname="BC03.P2.AppTest" name="mc_dcTest2" time="0.001"/>
+  <testcase classname="BC03.P2.AppTest" name="mc_dcTest2" time="0"/>
   <testcase classname="BC03.P2.AppTest" name="mc_dcTest3" time="0"/>
-  <testcase classname="BC03.P2.AppTest" name="mc_dcTest4" time="0"/>
+  <testcase classname="BC03.P2.AppTest" name="mc_dcTest4" time="0.001"/>
   <testcase classname="BC03.P2.AppTest" name="mc_dcTest5" time="0"/>
   <testcase classname="BC03.P2.AppTest" name="mc_dcTest6" time="0"/>
   <testcase classname="BC03.P2.AppTest" name="mc_dcTest7" time="0"/>
-  <testcase classname="BC03.P2.AppTest" name="mc_dcTest8" time="0.001"/>
-  <testcase classname="BC03.P2.AppTest" name="mc_dcTest9" time="0"/>
+  <testcase classname="BC03.P2.AppTest" name="mc_dcTest8" time="0"/>
+  <testcase classname="BC03.P2.AppTest" name="mc_dcTest9" time="0.001"/>
   <testcase classname="BC03.P2.AppTest" name="decisionCoverageTest10" time="0"/>
   <testcase classname="BC03.P2.AppTest" name="decisionCoverageTest1" time="0"/>
   <testcase classname="BC03.P2.AppTest" name="decisionCoverageTest2" time="0"/>
   <testcase classname="BC03.P2.AppTest" name="decisionCoverageTest3" time="0"/>
-  <testcase classname="BC03.P2.AppTest" name="decisionCoverageTest4" time="0.001"/>
+  <testcase classname="BC03.P2.AppTest" name="decisionCoverageTest4" time="0"/>
   <testcase classname="BC03.P2.AppTest" name="decisionCoverageTest5" time="0"/>
   <testcase classname="BC03.P2.AppTest" name="decisionCoverageTest6" time="0"/>
   <testcase classname="BC03.P2.AppTest" name="decisionCoverageTest7" time="0"/>
   <testcase classname="BC03.P2.AppTest" name="decisionCoverageTest8" time="0"/>
-  <testcase classname="BC03.P2.AppTest" name="decisionCoverageTest9" time="0"/>
+  <testcase classname="BC03.P2.AppTest" name="decisionCoverageTest9" time="0.001"/>
 </testsuite>
